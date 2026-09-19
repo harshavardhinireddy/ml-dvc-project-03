@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/train.py
+    deps:
+    - path: data/dataset_yt_video.csv
+      hash: md5
+      md5: 3c14941ad932f2ff8ca372031ea53020
+      size: 59600439
+    - path: src/train.py
+      hash: md5
+      md5: ddf21291fd4ea5325fc93d6a83400946
+      size: 1217
+    outs:
+    - path: models/youtube_views_model.pkl
+      hash: md5
+      md5: 108230e8f7ef4aa44622d660e7b5a20a
+      size: 252178545
