@@ -9,10 +9,10 @@ stages:
       size: 59600439
     - path: src/train.py
       hash: md5
-      md5: ddf21291fd4ea5325fc93d6a83400946
-      size: 1217
+      md5: 2d1b916552c9c416c9470cc02e31b362
+      size: 1216
     outs:
     - path: models/youtube_views_model.pkl
       hash: md5
-      md5: 108230e8f7ef4aa44622d660e7b5a20a
-      size: 252178545
+      md5: 4a7807a2980f3447cf58c2376fca543e
+      size: 126102321
